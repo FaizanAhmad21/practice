@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f8f8f8;
+}
+
+/* Custom Navbar Styling */
+nav div{
+    display: flex;
+    width: 100%;
+}
+nav img {
+    width: 50px;
+}
+
+.nav-link {
+    color: #222222 !important;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #7b7b7b !important;
+}
+
+/* Optional: Make Navbar Sticky */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+nav button span{
+    background-color: #222222;
+    justify-content: center;
+}
+
+/* Small screen dropdown style tweak */
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
